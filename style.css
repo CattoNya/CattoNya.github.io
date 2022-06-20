@@ -1,0 +1,141 @@
+.main {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+body,
+html {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header .title {
+  min-height: 0;
+  width: 100%;
+  flex: 1;
+  background-color: #30303e;
+  color: #d08afe;
+  font-size: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: bold;
+}
+.header .main-image {
+  min-height: 0;
+  width: 100%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.header .main-image .top {
+  min-height: 0;
+  flex: 1;
+  background: #30303e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header .main-image .top img {
+  height: 350px;
+  box-sizing: border-box;
+  border: 6px solid #d08afe;
+  border-radius: 50%;
+  position: relative;
+  top: 178px;
+}
+.header .main-image .bottom {
+  flex: 1;
+  background: #d08afe;
+}
+
+.information {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #d08afe;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 26px;
+}
+.information a {
+  color: #d08afe;
+}
+.information .about {
+  flex: 1;
+  margin: 10px;
+  background: #30303e;
+  color: #d08afe;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+.information .about .title {
+  font-size: 90px;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 900;
+}
+.information .about .text {
+  width: 100%;
+  flex: 1;
+  padding: 10px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.information .contact {
+  flex: 1;
+  margin: 10px;
+  background: #30303e;
+  color: #d08afe;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+.information .contact .title {
+  font-size: 90px;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 900;
+}
+.information .contact .text {
+  width: 100%;
+  flex: 1;
+  padding: 10px;
+  text-align: justify;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
