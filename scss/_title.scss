@@ -15,6 +15,7 @@
         align-items: flex-end;
         justify-content: center;
         font-weight: bold;
+        padding-top: 150px;
     }
 
     .main-image {
@@ -31,6 +32,7 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            padding-top: 100px;
 
             img {
                 height: 450px;
@@ -45,6 +47,7 @@
         .bottom {
             flex: 1;
             background: $contrast-color;
+            padding-bottom: 150px;
         }
     }
 }

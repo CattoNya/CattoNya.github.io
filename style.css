@@ -32,6 +32,7 @@ html {
   align-items: flex-end;
   justify-content: center;
   font-weight: bold;
+  padding-top: 150px;
 }
 .header .main-image {
   min-height: 0;
@@ -47,6 +48,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-top: 100px;
 }
 .header .main-image .top img {
   height: 450px;
@@ -59,6 +61,7 @@ html {
 .header .main-image .bottom {
   flex: 1;
   background: #d08afe;
+  padding-bottom: 150px;
 }
 
 .information {
@@ -141,4 +144,34 @@ html {
   text-align: justify;
   box-sizing: border-box;
   font-family: "Acme", sans-serif;
+}
+
+.footer {
+  background-color: #30303e;
+  text-align: center;
+  font-size: 22px;
+  color: #d08afe;
+  font-family: "Acme", sans-serif;
+  padding: 5px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1e1e26;
+  color: #d08afe;
+  font-family: "Acme", sans-serif;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }/*# sourceMappingURL=style.css.map */
