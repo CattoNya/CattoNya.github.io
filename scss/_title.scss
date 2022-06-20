@@ -33,12 +33,12 @@
             align-items: flex-end;
 
             img {
-                height: 350px;
+                height: 400px;
                 box-sizing: border-box;
                 border: 6px solid $contrast-color;
                 border-radius: 50%;
                 position: relative;
-                top: ((350 + 6) / 2) * 1px;
+                top: ((400 + 6) / 2) * 1px;
             }
         }
 
