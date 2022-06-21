@@ -48,7 +48,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .header .main-image .top img {
   height: 450px;
@@ -71,13 +71,13 @@ html {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #d08afe;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   box-sizing: border-box;
   padding: 10px;
   font-size: 26px;
+  background-image: linear-gradient(to bottom, #d08afe, #e2b6ff, #a0c6fb, #6ea6f5);
 }
 .information a {
   color: #d08afe;

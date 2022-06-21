@@ -5,13 +5,13 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    background-color: $contrast-color;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     box-sizing: border-box;
     padding: 10px;
     font-size: 26px;
+    background-image: linear-gradient(to bottom, $gradient1, $gradient2, $gradient3, $gradient4);
 
     a {
         color: $contrast-color;
