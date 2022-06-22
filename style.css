@@ -170,6 +170,13 @@ html {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  transition: transform 0.1 ease-out;
+  box-shadow: 0 5px 0 #2c2c39;
+}
+
+#myBtn:active {
+  box-shadow: 0 0 0 #030304;
+  transform: translateY(5px);
 }
 
 #myBtn:hover {
