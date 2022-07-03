@@ -1,0 +1,41 @@
+@import './scss/colors';
+@import './scss/header';
+@import './scss/main';
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(
+    to bottom,
+    $main-color-1,
+    $main-color-2,
+    $main-color-4
+  );
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .header {
+    height: 40%;
+    display: flex;
+    position: relative;
+  }
+  .main {
+    height: 60%;
+    display: flex;
+    position: relative;
+  }
+}
