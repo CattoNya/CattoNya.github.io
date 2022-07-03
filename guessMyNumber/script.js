@@ -19,7 +19,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === secretNumber) {
     displayMessage('Correct Number!');
 
-    document.querySelector('body').style.background = '#3BAD2C';
+    document.querySelector('body').style.background = '#692B7A';
 
     document.querySelector('.number').style.width = '11rem';
     document.querySelector('.number').textContent = secretNumber;
