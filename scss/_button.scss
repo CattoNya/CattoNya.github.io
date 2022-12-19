@@ -1,27 +1,27 @@
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #1e1e26;
-    color: $contrast-color;
-    font-family: 'Acme', sans-serif;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-    transition: transform 0.1 ease-out;
-    box-shadow: 0 5px 0 #2c2c39;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1e1e26;
+  color: $contrast-color;
+  font-family: "Acme", sans-serif;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: transform 0.1 ease-out;
+  box-shadow: 0 5px 0 #2c2c39;
 }
 
 #myBtn:active {
-    box-shadow: 0 0 0 #030304;
-    transform: translateY(5px);
+  box-shadow: 0 0 0 #030304;
+  transform: translateY(5px);
 }
 
 #myBtn:hover {
-    background-color: #555;
+  background-color: #555;
 }
