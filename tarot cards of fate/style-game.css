@@ -1,7 +1,152 @@
 html,
 body {
+  background-image: url("game-page-tarot.png");
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-image: url("page.png");
+  display: flex;
+  flex-direction: column;
+  font-family: "Press Start 2P", cursive;
+}
+
+.cards {
+  flex: 84%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1 {
+  flex: 50%;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-2 {
+  flex: 50%;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-1 {
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 60px;
+  height: 306px;
+  width: 180px;
+}
+
+.card-2 {
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 60px;
+  height: 306px;
+  width: 180px;
+}
+
+.card-3 {
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 60px;
+  height: 306px;
+  width: 180px;
+}
+
+.card-4 {
+  border: 1px;
+  border-radius: 5%;
+  height: 306px;
+  width: 180px;
+}
+
+.card-5 {
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 60px;
+  height: 306px;
+  width: 180px;
+}
+
+.card-6 {
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 60px;
+  height: 306px;
+  width: 180px;
+}
+
+.card-7 {
+  border: 1px;
+  border-radius: 5%;
+  height: 306px;
+  width: 180px;
+}
+
+.backside {
+  background-image: url("backside.png");
+}
+
+.card-image-0 {
+  background-image: url("tarot_0.png");
+}
+
+.card-image-1 {
+  background-image: url("tarot_1.png");
+}
+
+.card-image-2 {
+  background-image: url("tarot_2.png");
+}
+
+.card-image-3 {
+  background-image: url("tarot_3.png");
+}
+
+.card-image-4 {
+  background-image: url("tarot_4.png");
+}
+
+.card-image--1 {
+  background-image: url("tarot_-1.png");
+}
+
+.card-image--2 {
+  background-image: url("tarot_-2.png");
+}
+
+.card-image--3 {
+  background-image: url("tarot_-3.png");
+}
+
+.card-image--4 {
+  background-image: url("tarot_-4.png");
+}
+
+.bottom {
+  flex: 16%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28px;
+  color: #f5f6c5;
+}
+
+.score-1 {
+  flex: 35%;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.score-2 {
+  flex: 35%;
+  text-align: right;
+  padding-right: 20%;
+}
+
+.round {
+  text-align: center;
+  flex: 30%;
 }/*# sourceMappingURL=style-game.css.map */
