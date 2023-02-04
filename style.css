@@ -26,7 +26,7 @@ html {
   width: 100%;
   flex: 1;
   background-color: #30303e;
-  color: #d08afe;
+  color: #f7eddc;
   font-size: 200px;
   display: flex;
   align-items: flex-end;
@@ -53,14 +53,14 @@ html {
 .header .main-image .top img {
   height: 450px;
   box-sizing: border-box;
-  border: 7px solid #d08afe;
+  border: 7px solid #f7eddc;
   border-radius: 50%;
   position: relative;
   top: 228.5px;
 }
 .header .main-image .bottom {
   flex: 1;
-  background: #d08afe;
+  background: #f7eddc;
   padding-bottom: 150px;
 }
 
@@ -77,16 +77,16 @@ html {
   box-sizing: border-box;
   padding: 10px;
   font-size: 26px;
-  background-image: linear-gradient(to bottom, #d08afe, #e2b6ff, #a0c6fb, #6ea6f5);
+  background-image: linear-gradient(to bottom, #f7eddc, #7b3a2d);
 }
 .information a {
-  color: #d08afe;
+  color: #f7eddc;
 }
 .information .about {
   flex: 1;
   margin: 10px;
   background: #30303e;
-  color: #d08afe;
+  color: #f7eddc;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -118,7 +118,7 @@ html {
   flex: 1;
   margin: 10px;
   background: #30303e;
-  color: #d08afe;
+  color: #f7eddc;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -150,7 +150,7 @@ html {
   background-color: #30303e;
   text-align: center;
   font-size: 22px;
-  color: #d08afe;
+  color: #f7eddc;
   font-family: "Acme", sans-serif;
   padding: 5px;
 }
@@ -165,7 +165,7 @@ html {
   border: none;
   outline: none;
   background-color: #1e1e26;
-  color: #d08afe;
+  color: #f7eddc;
   font-family: "Acme", sans-serif;
   cursor: pointer;
   padding: 15px;
