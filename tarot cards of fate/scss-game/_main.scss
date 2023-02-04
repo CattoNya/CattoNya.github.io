@@ -12,8 +12,22 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
+.back-button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px;
+  width: 12rem;
+  height: 3.5rem;
+  border-width: 0.3rem;
+  transform: translate(16%, 40%);
+}
+
+.back-button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
 .cards {
-  flex: 84%;
+  flex: 75%;
   display: flex;
   flex-direction: column;
 }
@@ -133,23 +147,40 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 28px;
+  font-size: 24px;
   color: #f5f6c5;
 }
 
-.score-1 {
+.turn--0 {
+  text-align: left;
+}
+
+.turn--1 {
+  text-align: right;
+}
+
+.player--0 {
   flex: 35%;
   text-align: left;
   padding-left: 20%;
 }
 
-.score-2 {
+.player--1 {
   flex: 35%;
   text-align: right;
   padding-right: 20%;
 }
 
 .round {
-  text-align: center;
   flex: 30%;
+  text-align: center;
+}
+
+.roundText {
+  flex: 30%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }

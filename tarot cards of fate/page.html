@@ -14,6 +14,15 @@
   </head>
   <body>
     <div class="cards">
+      <div class="back">
+        <button
+          onclick="location.href = 'index.html'"
+          class="back-button"
+          type="submit"
+        >
+          Reset
+        </button>
+      </div>
       <div class="row-1">
         <button class="card-1 backside"></button>
         <button class="card-2 backside"></button>
@@ -27,17 +36,20 @@
       </div>
     </div>
     <div class="bottom">
-      <div class="score-1">
-        Player 1
-        <p class="score-1">0</p>
+      <div class="player--0 player player--active">
+        <h5>Player 1</h5>
+        <p class="score" id="score--0">0</p>
+        <p class="turn--0">It's your turn!</p>
       </div>
-      <div class="round">
-        Round:
+      <div class="roundTextD">
+        <p class="roundText">Round:</p>
         <p class="round">1</p>
+        <p class="winner"></p>
       </div>
-      <div class="score-2">
-        Player 2
-        <p class="score-2">0</p>
+      <div class="player--1 player">
+        <h5>Player 2</h5>
+        <p class="score" id="score--1">0</p>
+        <p class="turn--1 hidden">It's your turn!</p>
       </div>
     </div>
     <script src="script-page.js"></script>
