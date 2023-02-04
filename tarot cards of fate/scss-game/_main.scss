@@ -184,3 +184,7 @@ body {
 .hidden {
   display: none;
 }
+
+.stop-button {
+  pointer-events: none;
+}

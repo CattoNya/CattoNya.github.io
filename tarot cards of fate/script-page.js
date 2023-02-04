@@ -87,6 +87,8 @@ function showGetScore() {
     this.classList.remove('backside');
     this.classList.add('card-image-' + randomNumber);
 
+    this.classList.add('stop-button');
+
     scores[activePlayer] += randomNumber;
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
